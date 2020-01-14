@@ -1,0 +1,3 @@
+/* This is the main CSS file. To add CSS, create a new folder in this same folder and add it to this file */
+@import "navbar.css"; /* This is the navbar css styles */
+/* @import " .css";  /* Add a comment here to help others know what this one is for */
