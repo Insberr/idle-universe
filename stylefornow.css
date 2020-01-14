@@ -1,1 +1,9 @@
-body 
+body {
+    font-family: "Nano Sans", Arial, sans-serif;
+    background-color: #222222;
+    color: white;
+}
+.top-pane {
+    background-color: lightblue;
+    color: white;
+}
