@@ -4,6 +4,7 @@ no contenet yet
 
 # Notes
 We can use this file for the notes/questions
+<br>Remember to lock a file before you edit it, and dont dorget to unlock it when you are done
 
 # Credits
 * Leon [ ] - Createor 
