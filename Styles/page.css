@@ -7,9 +7,6 @@ body {
 a:link {
     color: orange;
 }
-div.content-pane a:link {
-    color: gray;
-}
 
 a:active {
     color: orange;
