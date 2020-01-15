@@ -1,7 +1,20 @@
-div.content-pane {
+.content-pane {
     background-color: lightblue;
     color: white;
     text-align: center;
     border-radius: 20px;
     padding: 30px;
+}
+
+.content-pane a:link {
+    color: gray;
+}
+.content-pane a:active {
+    color: darkgray;
+}
+.content-pane a:hover {
+    color: darkgray;
+}
+.content-pane a:activated {
+    color: gray;
 }
