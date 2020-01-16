@@ -58,6 +58,7 @@ a:visited {
 
 .pane-right {
     float: right;
+    margin-left: 2px;
 }
 
 /* ===== Nav/Tabs bar ===== */
