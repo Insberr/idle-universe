@@ -53,6 +53,7 @@ a:visited {
 .splash-text {
     padding-top: 0;
     padding-bottom: 0px;
+    float: left;
 }
 
 /* ===== New Element ===== */
