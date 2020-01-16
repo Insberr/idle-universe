@@ -10,14 +10,14 @@
 }
 @media screen and (max-width: 300px) {
     body {
-        background-color: green!important;
+        background-color: orange!important;
         font-size: 20px;
     }
 }
 /* ===== Body Style (Page Style) ===== */
 
 .page-not-supported {
-    font-size: 0;
+    font-size: 0!important;
 }
 
 body {
