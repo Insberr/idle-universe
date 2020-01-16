@@ -1,3 +1,5 @@
+//I will add the text from the google doc later, once i figure out JavaScript a bit more
+
 var splashTextArray = ["Venturing Into The Unknown...",
 "Installing Virus...",
 "Deleting Windows...",
@@ -87,16 +89,7 @@ var splashTextArray = ["Venturing Into The Unknown...",
 "Try it!",
 "Net Neutrality!",
 "Water proof!",
-"Woo, reddit!",
-"Woo, r/spacecompany!",
-"Γεια σου Ελλάδα!",
-"Привет Россия!",
-"日本ハロー！",
-"한국 안녕하세요!",
-"你好中国！",
 "Hallo Deutschland!",
-"Hola Espana!",
-"Ciao Italia",
 "Does not affect hay fever!",
 "Fat Free!",
 "0% Sugar!",
@@ -104,7 +97,6 @@ var splashTextArray = ["Venturing Into The Unknown...",
 "JavaScript!",
 "Recruiting Robot Hamsters...",
 "Autoclickers strictly discouraged!",
-"Even more in-depth than Kerbal Space Program!",
 ];
 var splashText = splashTextArray[Math.floor(Math.random()*splashTextArray.length)];
 
@@ -115,8 +107,8 @@ if(currentDate.indexOf("Jan 01") !== -1){
 if(currentDate.indexOf("Feb 14") !== -1){
 	splashText = "Happy Valentines!";
 }
-if(currentDate.indexOf("Sep 12") !== -1){
-	splashText = "6 Month Anniversary! V0.5 Released!";
+if(currentDate.indexOf("Nov 15") !== -1){
+	splashText = "Happy 1'st B-Day Incremental Universe!";
 }
 if(currentDate.indexOf("Dec 25") !== -1){
 	splashText = "Merry Christmas!";
