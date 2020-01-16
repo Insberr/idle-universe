@@ -7,13 +7,11 @@
         font-size: 12px!important;
         color: green!important;
     }
-}
-@media screen and (max-width: 300px) {
-    body {
-        background-color: orange!important;
-        font-size: 20px;
+    .tab {
+        margin-left: 10px!important;
     }
 }
+
 /* ===== Body Style (Page Style) ===== */
 
 .page-not-supported {
