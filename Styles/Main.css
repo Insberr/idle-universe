@@ -55,6 +55,7 @@ a:visited {
     padding-top: 0;
     padding-bottom: 0;
     float: left;
+    color: lightgreen;
 }
 
 .pane-right {
