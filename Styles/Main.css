@@ -1,5 +1,9 @@
 /* ===== Page Size Styles ===== */
-
+@media screen and (max-width: 800px) {
+    body {
+        background-color: red!important;
+    }
+}
 
 /* ===== Body Style (Page Style) ===== */
 
