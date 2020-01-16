@@ -4,7 +4,12 @@
         background-color: red!important;
     }
 }
-
+@media screen and (max-width: 800px) {
+    body {
+        background-color: green!important;
+        font-size: 20px;
+    }
+}
 /* ===== Body Style (Page Style) ===== */
 
 body {
