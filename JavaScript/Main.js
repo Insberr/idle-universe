@@ -1,5 +1,5 @@
 document.getElementById("activeonload").click();
-document.title = "Personal Website | Gitlab";
+
 function navtwotab(evt, navtwotab) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -12,11 +12,4 @@ function navtwotab(evt, navtwotab) {
     }
     document.getElementById(navtwotab).style.display = "block";
     evt.currentTarget.className += " active";
-    document.title = (navtwotab);
-}
-document.getElementById("getname").innerHTML = localStorage.getItem("SpiderGaminName");
-function setname() {
-    var setName = prompt("Enter Your Name", "");
-    localStorage.setItem("SpiderGaminName", setName);
-    document.getElementById("getname").innerHTML = localStorage.getItem("SpiderGaminName");
 }
