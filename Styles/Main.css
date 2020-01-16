@@ -17,7 +17,7 @@
 /* ===== Body Style (Page Style) ===== */
 
 .page-not-supported {
-    font-size: 0!important;
+    font-size: 0;
 }
 
 body {
@@ -54,12 +54,11 @@ a:visited {
     padding-top: 0;
     padding-bottom: 0;
     float: left;
-    color: lightgreen;
+    color: white;
+    margin-bottom: 5px;
 }
 
 .pane-right {
-    padding-top: 0;
-    padding-bottom: 0;
     float: right;
 }
 
