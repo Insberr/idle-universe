@@ -50,5 +50,9 @@ a:visited {
     border-radius: 20px;
     padding: 20px;
 }
+.splash-text {
+    padding-top: 0;
+    padding-bottom: 0px;
+}
 
 /* ===== New Element ===== */
