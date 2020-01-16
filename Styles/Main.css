@@ -3,14 +3,22 @@
     body {
         background-color: red!important;
     }
+    .page-not-supported {
+        font-size: 12px!important;
+        color: green!important;
+    }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
     body {
         background-color: green!important;
         font-size: 20px;
     }
 }
 /* ===== Body Style (Page Style) ===== */
+
+.page-not-supported {
+    font-size: 0;
+}
 
 body {
     font-family: "Nano Sans", Arial, sans-serif;
