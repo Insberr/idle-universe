@@ -1,8 +1,28 @@
 /* This is the CSS file. ALL CSS goes on this file */
-@import "page.css"; /* The page styles */
 @import "navbar.css"; /* This is the navbar css styles */
 @import "content-pane.css"; /* The bar at the top of the page */
 /* @import " .css";  /* Add a comment here to help others know what this one is for */
 
 /* ==================== CSS Starts Here =================== */
+/* ===== Body Style (Page Style) ===== */
+body {
+    font-family: "Nano Sans", Arial, sans-serif;
+    background-color: #222222;
+    color: white;
+}
 
+/* ===== Link Style ===== */
+a:link {
+    color: gray;
+}
+a:active {
+    color: darkgray;
+}
+a:hover {
+    color: darkgray;
+}
+a:visited {
+    color: gray;
+}
+
+/* ===== Content Pane ===== */
