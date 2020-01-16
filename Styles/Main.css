@@ -48,7 +48,8 @@ a:visited {
     color: white;
     text-align: center;
     border-radius: 20px;
-    padding: 20px;
+    border-bottom: 20px;
+    padding-bottom: 5px;
 }
 .splash-text {
     padding-top: 0;
@@ -58,7 +59,7 @@ a:visited {
 
 .pane-right {
     padding-top: 0;
-    padding-bottom: 5px;
+    padding-bottom: 0;
     float: right;
 }
 
