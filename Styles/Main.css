@@ -119,3 +119,11 @@ a:visited {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+.item-one {
+    border-radius: 15px 0 0 15px;
+}
+.item-end {
+    border-radius: 0 15px 15px 0;
+}
+
