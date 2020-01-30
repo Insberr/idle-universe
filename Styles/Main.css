@@ -1,25 +1,31 @@
 /* ===== Page Size Styles ===== */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     body {
-        background-color: red!important;
+        background-color: orange!important;
     }
     .page-not-supported {
+        display: inline!important;
+        margin-top: 55px;
         font-size: 16px!important;
-        color: green!important;
+        color: white!important;
     }
     .tab {
         margin-left: 10px!important;
+    }
+    .tab button {
+        font-size: 12px;
+        padding: 13px 15px;
     }
 }
 
 /* ===== Body Style (Page Style) ===== */
 
 .page-not-supported {
-    font-size: 0;
+    display: none;
 }
 
 body {
-    font-family: "Nano Sans", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #222222;
     color: white;
 }
