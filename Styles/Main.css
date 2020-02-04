@@ -19,6 +19,10 @@
 }
 
 /* ===== Body Style (Page Style) ===== */
+.slide-top {
+	-webkit-animation: slide-top 5s linear ;
+	        animation: slide-top 5s linear ;
+}
 
 .page-not-supported {
     display: none;
