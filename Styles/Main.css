@@ -20,15 +20,15 @@
 
 /* ===== Body Style (Page Style) ===== */
 .slide-top {
-	-webkit-animation: slide-top 5s linear ;
-	        animation: slide-top 5s linear ;
+	-webkit-animation: slide-top 100s linear ;
+	        animation: slide-top 100s linear ;
 }
 
 
 @-webkit-keyframes slide-top {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
   }
   100% {
     -webkit-transform: translateY(-100px);
@@ -37,8 +37,8 @@
 }
 @keyframes slide-top {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
   }
   100% {
     -webkit-transform: translateY(-100px);
