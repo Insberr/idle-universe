@@ -20,8 +20,8 @@
 
 /* ===== Body Style (Page Style) ===== */
 .slide-top {
-	-webkit-animation: slide-top 100s linear ;
-	        animation: slide-top 100s linear ;
+	-webkit-animation: slide-top 10s linear ;
+	        animation: slide-top 10s linear ;
 }
 
 
