@@ -19,38 +19,6 @@
 }
 
 /* ===== Body Style (Page Style) ===== */
-.slide-top {
-	-webkit-animation: slide-top 10s linear ;
-	        animation: slide-top 10s linear ;
-}
-
-
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  }
-}
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  }
-}
-
-
-
-.page-not-supported {
-    display: none;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -71,28 +39,6 @@ a:hover {
 }
 a:visited {
     color: gray;
-}
-
-/* ===== Content Pane ===== */
-
-.content-pane {
-    background-color: lightgray;
-    color: white;
-    border-radius: 20px;
-    border-bottom: 20px;
-    padding: 30px;
-}
-.splash-text {
-    padding-top: 0;
-    padding-bottom: 0;
-    float: left;
-    color: white;
-    margin-bottom: 5px;
-}
-
-.pane-right {
-    float: right;
-    margin-left: 2px;
 }
 
 /* ===== Nav/Tabs bar ===== */
@@ -153,11 +99,3 @@ a:visited {
     from {opacity: 0;}
     to {opacity: 1;}
 }
-
-.item-one {
-    border-radius: 15px 0 0 15px;
-}
-.item-end {
-    border-radius: 0 15px 15px 0;
-}
-
