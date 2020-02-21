@@ -9,6 +9,5 @@ Remember to lock a file before you edit it, and dont dorget to unlock it when yo
 
 # Credits
 * Leon [StarlingBlaze] - Createor 
-* Jonah [SpiderGamin] - Coder (HTML(Good), CSS(Ok), JavaScript(begginer))
-* Erik [Alphadrake86] - Coder (HTML(?), CSS(?), JavaScript(?))
+* Jonah [SpiderGamin] - Coder (HTML(Good), CSS(Good), JavaScript(ok)
 * Brianna [brie2] - Coder (HTML(?), CSS(?), JavaScript(?))
