@@ -3,3 +3,7 @@ body {
     background-color: #222222;
     color: white;
 }
+
+.resbutton{
+    min-width: 50px;
+}
