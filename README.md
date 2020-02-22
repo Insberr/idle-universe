@@ -1,6 +1,6 @@
 [![pipeline status](https://gitlab.com/SpiderGamin/Incremental-Universe/badges/master/pipeline.svg)](https://gitlab.com/SpiderGamin/Incremental-Universe/commits/master)
 # Incremental Universe
-The game is still an idea, but we are coming close to getting it started.
+We have sort of started working on the game!!!
 
 # Notes
 We can use this file for the notes/questions
