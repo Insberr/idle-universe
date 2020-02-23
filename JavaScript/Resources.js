@@ -1,6 +1,6 @@
 // Wood
 function gatherWood() {
-    var wood = wood + 1;
+    var wood = wood++;
     document.getElementById('woodamount').innerHTML = wood;
 }
 
