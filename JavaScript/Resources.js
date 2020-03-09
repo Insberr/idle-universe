@@ -15,9 +15,8 @@ function gatherWood() {
     }
 }
 
-/
 
-/ Stone
+// Stone
 
 function gatherStone() {
     stone++;       
