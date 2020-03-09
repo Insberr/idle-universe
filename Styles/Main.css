@@ -4,6 +4,14 @@ body {
     color: white;
 }
 
+button.gain {
+    color: red;
+    padding: 2px;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: red;
+}
+
 .resbutton{
     min-width: 50px;
 }
