@@ -10,3 +10,9 @@ function gatherWood() {
 }
 
 // Stone
+
+var i = 0;
+
+function gatherStone() {
+    document.getElementById('stoneamount').value = ++i;
+}
