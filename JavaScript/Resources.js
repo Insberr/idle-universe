@@ -6,13 +6,14 @@ function gatherWood() {
     //var life = food + 1;
     //var food = life;
     //localStorage.setItem("IncrementalWood", number(wood));
-    document.getElementById('woodamount').value = ++wood;
+    //document.getElementById('woodamount').value = ++wood;
+    wood++;       
+    document.getElementById('woodamount').innerHTML=wood;
 }
 
 // Stone
 
-var stone = 0;
-
 function gatherStone() {
-    document.getElementById('stoneamount').value = ++stone;
+    stone++;       
+    document.getElementById('stoneamount').innerHTML=stone;
 }
