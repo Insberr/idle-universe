@@ -1,7 +1,7 @@
 // Wood
 function gatherWood() {
-    var wood = localStorage.getItem("IncrementalWood") + 1;
-    localStorage.setItem("IncrementalWood", wood);
+    var wood = number(localStorage.getItem("IncrementalWood")) + 1;
+    localStorage.setItem("IncrementalWood", number(wood));
     document.getElementById('woodamount').innerHTML = wood;
 }
 
