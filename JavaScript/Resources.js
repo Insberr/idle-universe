@@ -11,7 +11,7 @@ function gatherWood() {
         wood++;       
         document.getElementById('woodamount').innerHTML = wood + "/" + maxwood;
     } else {
-        document.getElementById('woodamount').innerHTML = "maxed! " + string(wood) + "/" + string(maxwood);
+        document.getElementById('woodamount').innerHTML = "maxed! " + wood + "/" + maxwood;
     }
 }
 
