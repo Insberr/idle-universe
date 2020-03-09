@@ -1,17 +1,23 @@
 // Wood
 
-//var food = 1;
+var maxwood = 50;
 
 function gatherWood() {
     //var life = food + 1;
     //var food = life;
     //localStorage.setItem("IncrementalWood", number(wood));
     //document.getElementById('woodamount').value = ++wood;
-    wood++;       
-    document.getElementById('woodamount').innerHTML=wood;
+    if(wood < maxwood) {
+        wood++;       
+        document.getElementById('woodamount').innerHTML = wood + "/" + maxwood;
+    } else {
+        document.getElementById('woodamount').innerHTML = "maxed! " + string(wood) + "/" + string(maxwood);
+    }
 }
 
-// Stone
+/
+
+/ Stone
 
 function gatherStone() {
     stone++;       
