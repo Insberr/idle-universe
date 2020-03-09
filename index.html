@@ -11,13 +11,13 @@
         <button onclick="location.reload(true)">Force Reload</button>
         <!-- Resources -->
         <div id="resources">
-            <div id="stone">
-                <button onclick="gatherStone()">Gather Stone</button>
-                <p>Stone <span id="stoneamount">0</span></p>
-            </div>
             <div id="wood">
-                <button onclick="gatherWood()">Gather wood</button>
-                <p>Wood <span id="woodamount">0</span></p>
+                <button class="gain" onclick="gatherWood()">Gather Wood</button>
+                <p>Wood: <span id="woodamount">0</span></p>
+            </div>
+            <div id="stone">
+                <button class="gain" onclick="gatherStone()">Gather Stone</button>
+                <p>Stone: <span id="stoneamount">0</span></p>
             </div>
         </div>
         <!-- Energy -->
