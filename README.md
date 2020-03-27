@@ -16,7 +16,7 @@ NOTE!!! DEVELOPERS of this game, DO NOT edit the GITHUB repository
 * Added Wood and Stone resources
 * Added the item limit to `Wood`
 
-```html
+```python
 <br>
 print("hi")
 ```
