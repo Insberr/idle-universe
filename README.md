@@ -13,10 +13,5 @@ NOTE!!! DEVELOPERS of this game, DO NOT edit the GITHUB repository
 * Brianna [brie2] - Coder (HTML(?), CSS(?), JavaScript(?))
 
 # Updates
-* Added Wood and Stone resources
+* Added `Wood` and `Stone` resources
 * Added the item limit to `Wood`
-
-```python
-<br>
-print("hi")
-```
