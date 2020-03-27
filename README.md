@@ -5,9 +5,14 @@ We have sort of started working on the game!!!
 # Notes
 We can use this file for the notes/questions
 
-Remember to lock a file before you edit it, and dont dorget to unlock it when you are done
+NOTE!!! DEVELOPERS of this game, DO NOT edit the GITHUB repository
 
 # Credits
-* Leon [StarlingBlaze] - Createor 
+* Leon [StarlingBlaze] - Createor
 * Jonah [SpiderGamin] - Coder (HTML(Good), CSS(Good), JavaScript(ok)
 * Brianna [brie2] - Coder (HTML(?), CSS(?), JavaScript(?))
+
+# Updates
+* Added Wood and Stone resources
+* Added the item limit to ```Wood```
+* `wood`
