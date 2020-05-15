@@ -10,7 +10,7 @@ function gatherWood() {
         document.getElementById('woodamount').innerHTML = wood + "/" + maxwood;
     } else {
         document.getElementById('woodamount').innerHTML = "No More Space " + wood + "/" + maxwood;
-        //then unlock stone
+        document.getElementById('stone').style.display = "inline"
     }
 }
 
