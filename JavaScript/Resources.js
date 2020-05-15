@@ -1,7 +1,5 @@
 // Wood
 
-var maxwood = 50;
-
 function gatherWood() {
     //var life = food + 1;
     //var food = life;
@@ -11,7 +9,8 @@ function gatherWood() {
         wood++;       
         document.getElementById('woodamount').innerHTML = wood + "/" + maxwood;
     } else {
-        document.getElementById('woodamount').innerHTML = "maxed! " + wood + "/" + maxwood;
+        document.getElementById('woodamount').innerHTML = "No More Space " + wood + "/" + maxwood;
+        //then unlock stone
     }
 }
 
@@ -19,6 +18,11 @@ function gatherWood() {
 // Stone
 
 function gatherStone() {
-    stone++;       
-    document.getElementById('stoneamount').innerHTML=stone;
+    if (stone < maxstone) {
+        stone++;
+        document.getElementById('stoneamount').innerHTML = stone + "/" + maxstone;
+    } else {
+        document.getElementById('stoneamount').innerHTML = "No More Space! " + stone + "/" + maxstone;
+        //unlock next item
+    }
 }
