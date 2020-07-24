@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Idle Universe</title>
-    </head>
-    <body>
-        <p>Welcome</p>
-    </body>
+
+<head>
+    <title>Idle Universe</title>
+    <link rel="stylesheet" href="Styles/Main.css" type="text/css" />
+    <link rel="shortcut icon" href="IUlogo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Content -->
+    <button onclick="location.reload(true)">Force Reload</button>
+    <!-- Resources -->
+    <div id="resources">
+        <div id="wood">
+            <button class="gain" onclick="gatherWood()">Gather Wood</button>
+            <p>Wood: <span id="woodamount">-</span></p>
+        </div>
+        <div id="stone" style="display: none;">
+            <button class="gain" onclick="gatherStone()">Gather Stone</button>
+            <p>Stone: <span id="stoneamount">-</span></p>
+        </div>
+    </div>
+    <!-- Energy -->
+    <div id="energy">
+        <div>
+            <!-- Genaral Energy Info -->
+            <p>Energy! you can make basic energy</p>
+        </div>
+        <div>
+            <!-- Energy Machines and upgrades -->
+            <div>
+                crank
+                about
+                upgrades
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="JavaScript/Main.js"></script>
+    <script src="JavaScript/Resources.js"></script>
+    <script src="JavaScript/default-var.js"></script>
+</body>
+
 </html>
