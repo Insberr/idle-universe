@@ -11,6 +11,8 @@ We can use this file for the notes/questions
 
 NOTE!!! DEVELOPERS of this game, DO NOT edit the GITHUB repository
 
+Use a framework
+
 # Credits
 * Leon [StarlingBlaze] - Createor
 * Jonah [SpiderGamin] - Coder (HTML(Good), CSS(Good), JavaScript(ok)
