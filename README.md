@@ -2,6 +2,10 @@
 # Incremental Universe
 We have sort of started working on the game!!!
 
+# Help Wanted
+If you would like to help with the creation of this game please contact me on the discord server
+[Discord]() link coming soon I need to create an invite.
+
 # Notes
 We can use this file for the notes/questions
 
