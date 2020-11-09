@@ -52,9 +52,9 @@ var splashTextArray = [
 	"JavaScript!",
 	"Recruiting Robot Hamsters..."
 ];
-var splashText = splashTextArray[Math.floor(Math.random() * splashTextArray.length)];
+let splashText = splashTextArray[Math.floor(Math.random() * splashTextArray.length)];
 
-var currentDate = (new Date()).toString();
+let currentDate = (new Date()).toString();
 if (currentDate.indexOf("Jan 01") !== -1) {
 	splashText = "Happy New Year!";
 }
@@ -68,10 +68,6 @@ if (currentDate.indexOf("Dec 25") !== -1) {
 	splashText = "Merry Christmas!";
 }
 document.getElementById("splashText").textContent = splashText;
-
-
-
-
 
 function onLoad() {
 	document.getElementById("woodamount").innerHTML = woodonload;
