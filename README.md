@@ -9,7 +9,6 @@ If you would like to help with the creation of this game please contact me on th
 # Notes
 We can use this file for the notes/questions
 
-NOTE!!! DEVELOPERS of this game, DO NOT edit the GITHUB repository
 
 Use a framework
 
