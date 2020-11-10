@@ -2,42 +2,64 @@
 <html>
 
 <head>
-    <title>Idle Universe</title>
-    <link rel="stylesheet" href="src/styles/main.css" type="text/css" />
-    <!--<link rel="shortcut icon" href="" type="image/x-icon" />-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Idle Universe</title>
+	<link rel="stylesheet" href="src/styles/main.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <!-- Content -->
-    <!-- Resources -->
-    <div id="resources">
-        <div id="wood">
-            <button class="gain" onclick="gatherWood()">Gather Wood</button>
-            <p>Wood: <span id="woodamount">-</span></p>
-        </div>
-        <div id="stone" style="display: none;">
-            <button class="gain" onclick="gatherStone()">Gather Stone</button>
-            <p>Stone: <span id="stoneamount">-</span></p>
-        </div>
-    </div>
-    <!-- Energy -->
-    <div id="energy">
-        <div>
-            <!-- Genaral Energy Info -->
-            <p>Energy! you can make basic energy</p>
-        </div>
-        <div>
-            <!-- Energy Machines and upgrades -->
-            <div>
-                crank
-                about
-                upgrades
-            </div>
-        </div>
-    </div>
-    <!-- JavaScript -->
-    <script src="src/scripts/main.js"></script>
+	<div id="splashScreen">
+		<div id="splashText"></div>
+	</div>
+	<div id="game">
+		<div id="navigation">
+			<div tab="resources">
+				<button>Resources</button>
+			</div>
+			<div v-for="tab in tabs">
+				<div tab="tab.id" v-if="tab.unlocked">
+					<button>{{ tab.id }}</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="resources">
+			<div v-for="resource in resources">
+				<div>
+					Resource {{ resource.id }}
+					Amount {{ resource.amount }}
+				</div>
+			</div>
+			<div id="wood">
+				<button class="gain" onclick="gatherWood()">Gather Wood</button>
+				<p>Wood: <span id="woodamount">-</span></p>
+			</div>
+			<div id="stone" style="display: none;">
+				<button class="gain" onclick="gatherStone()">Gather Stone</button>
+				<p>Stone: <span id="stoneamount">-</span></p>
+			</div>
+		</div>
+		<!-- Energy -->
+		<div id="energy">
+			<div>
+				<!-- Genaral Energy Info -->
+				<p>Energy! you can make basic energy</p>
+			</div>
+			<div>
+				<!-- Energy Machines and upgrades -->
+				<div>
+					crank
+					about
+					upgrades
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="src/scripts/game.js"></script>
+	<script src="src/scripts/ui.js"></script>
+	<script src="src/scripts/main.js"></script>
 </body>
 
 </html>
