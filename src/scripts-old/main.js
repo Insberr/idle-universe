@@ -1,8 +1,10 @@
 var resources = new Vue({
 	el: '#resources',
-	data: {
+	data: function() {
+return {
 		resources: {}
-	},
+	};
+},
 	created() {
 		this.resources = Game.load.resources();
 	},

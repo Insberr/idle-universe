@@ -1,6 +1,8 @@
 var splashScreen = new Vue({
 	el: '#splashScreen',
-	data: {},
+	data: function() {
+return {};
+},
 	watch: {
 		remove() {
 			return;
@@ -10,9 +12,11 @@ var splashScreen = new Vue({
 
 var navigation = new Vue({
 	el: '#navigation',
-	data: {
+	data: function() {
+return {
 		tabs: {}
-	},
+	};
+},
 	created() {
 		this.tabs = Game.load.tabs();
 	},
